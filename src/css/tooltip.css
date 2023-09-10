@@ -1,0 +1,58 @@
+.hoverbutton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.hoverbutton:hover{
+    cursor: default;
+}
+
+.parent {
+    display: flex;
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 38%;
+    bottom: 38%;
+}
+
+.parent-left {
+    flex-direction: row;
+}
+
+.parent-right {
+    flex-direction: row-reverse;
+}
+
+.parent-top {
+    justify-content: center;
+}
+
+.parent-bottom {
+    justify-content: center;
+}
+
+.child {
+    background-color: aliceblue;
+}
+
+.child-left {
+    align-self: center;
+}
+
+.child-right {
+    align-self: center;
+}
+
+.child-top {
+    align-self: flex-start;
+}
+
+.child-bottom {
+    align-self: flex-end;
+}
